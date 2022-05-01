@@ -4,7 +4,7 @@
 To develop an algorithm to find the route from the source to the destination point using breadth-first search.
 
 ## THEORY
-Explain the problem statement
+Breadth First Search (BFS) Algorithm. Breadth first search is a graph traversal algorithm that starts traversing the graph from root node and explores all the neighbouring nodes. Then, it selects the nearest node and explore all the unexplored nodes. The algorithm follows the same process for each of the nearest node until it finds the goal.It follows FIFO.It travel from left to right.
 
 ## DESIGN STEPS
 
@@ -22,7 +22,6 @@ Include the nodes(locations) and values(distance) in dictionary as keys and valu
 
 ### STEP 5:
 Pass the required location it will return the distance and destination.
-
 
 
 
