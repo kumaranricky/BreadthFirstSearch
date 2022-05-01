@@ -212,6 +212,7 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 
 ## SOLUTION JUSTIFICATION:
+The Route solutions are found by Breadth First Search algorithm(following FIFO and routes travelling from left to right).
 
 ## RESULT:
 
