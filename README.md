@@ -12,9 +12,18 @@ Explain the problem statement
 Identify a location in the google map:
 
 ### STEP 2:
-Select a specific number of nodes with distance
+Select a specific number of nodes with distance and set that specific loation alone. 
 
-### STEP -> Write your own steps:
+### STEP 3:
+Import the required packages and create some methods to define and understand breadthfirstsearch.
+
+### STEP 4:
+Include the nodes(locations) and values(distance) in dictionary as keys and values.
+
+### STEP 5:
+Pass the required location it will return the distance and destination.
+
+
 
 
 ## ROUTE MAP
@@ -196,6 +205,8 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 
 ## OUTPUT:
+
+ ![Screenshot (122)](https://user-images.githubusercontent.com/75243072/166134583-38ee4c60-83b2-4236-a738-8707482f259a.png)
 
 ## SOLUTION JUSTIFICATION:
 
