@@ -174,31 +174,31 @@ chennai_to_arakkonam = Map(
 r0 = RouteProblem('chennai', 'arakkonam', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r0)
 print("GoalStateWithPath:{0}".format(goal_state_path))
-path_states(goal_state_path) 
+print(path_states(goal_state_path)) 
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 r1 = RouteProblem('chennai', 'thiruvallur', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r1)
 print("GoalStateWithPath:{0}".format(goal_state_path))
-path_states(goal_state_path) 
+print(path_states(goal_state_path))  
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 r2 = RouteProblem('poonamalle', 'arakkonam', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r2)
 print("GoalStateWithPath:{0}".format(goal_state_path))
-path_states(goal_state_path) 
+print(path_states(goal_state_path))  
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 r3 = RouteProblem('arakkonam', 'ambattur', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r3)
 print("GoalStateWithPath:{0}".format(goal_state_path))
-path_states(goal_state_path) 
+print(path_states(goal_state_path)) 
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 r4 = RouteProblem('perambakkam', 'avadi', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r4)
 print("GoalStateWithPath:{0}".format(goal_state_path))
-path_states(goal_state_path) 
+print(path_states(goal_state_path)) 
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ```
 
