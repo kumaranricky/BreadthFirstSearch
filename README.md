@@ -204,11 +204,9 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 
 ## OUTPUT:
-![Screenshot (125)](https://user-images.githubusercontent.com/75243072/166134810-e8ab719d-74f6-44b0-b58c-5a987233dc23.png)
-![Screenshot (126)](https://user-images.githubusercontent.com/75243072/166134817-71253451-8807-45a8-96f8-3e491086a0c7.png)
-![Screenshot (127)](https://user-images.githubusercontent.com/75243072/166134821-0140f050-06fa-4886-983f-cedd696c3dbd.png)
-![Screenshot (129)](https://user-images.githubusercontent.com/75243072/166134825-6c96e9ce-45a6-4aef-b00a-cfebbcb8f14f.png)
-![Screenshot (130)](https://user-images.githubusercontent.com/75243072/166134834-cc7c4051-4eb7-420f-81ae-91c2a2a71f70.png)
+![Screenshot (144)](https://user-images.githubusercontent.com/75243072/166918057-99de5147-8233-48c5-9f26-4d10c5c198c5.png)
+![Screenshot (145)](https://user-images.githubusercontent.com/75243072/166918084-5b1cfede-e236-426f-9533-9c34cab94450.png)
+
 
 
 ## SOLUTION JUSTIFICATION:
