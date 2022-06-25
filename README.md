@@ -1,4 +1,10 @@
-# Breadth First Search
+### EX NO: 02
+
+### DATE:28/04/2022 
+
+
+# <p align = "center"> Breadth First Search </p>
+
 ## AIM
 
 To develop an algorithm to find the route from the source to the destination point using breadth-first search.
@@ -203,8 +209,8 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ```
 
 
-## OUTPUT:
-![Screenshot (144)](https://user-images.githubusercontent.com/75243072/166918057-99de5147-8233-48c5-9f26-4d10c5c198c5.png)
+## <br>OUTPUT:
+![Screenshot (238)](https://user-images.githubusercontent.com/75243072/175768659-e6164a60-9485-4168-a424-a65dd2829d7e.png)
 ![Screenshot (145)](https://user-images.githubusercontent.com/75243072/166918084-5b1cfede-e236-426f-9533-9c34cab94450.png)
 
 
@@ -213,6 +219,5 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 The Route solutions are found by Breadth First Search algorithm(following FIFO and routes travelling from left to right).
 
 ## RESULT:
-
 Thus,an algorithm developed to find the route from the source to the destination point using breadth-first search.
 
