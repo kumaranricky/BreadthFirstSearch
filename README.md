@@ -39,6 +39,11 @@ Pass the required location it will return the distance and destination.
 
 
 ## PROGRAM
+```
+Developed By
+Student name : Kumaran.B
+Reg.no : 212220230026
+```
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
@@ -91,13 +96,11 @@ def expand(problem, node):
         cost = node.path_cost + problem.action_cost(s, action, s1)
         yield Node(s1, node, action, cost)
         
-
 def path_actions(node):
     "The sequence of actions to get to this node."
     if node.parent is None:
         return []  
     return path_actions(node.parent) + [node.action]
-
 
 def path_states(node):
     "The sequence of states to get to this node."
@@ -159,8 +162,7 @@ class RouteProblem(Problem):
         self.distances = links
         self.neighbors = multimap(links)
         self.locations = locations or defaultdict(lambda: (0, 0))
-
-        
+    
 def multimap(pairs) -> dict:
     "Given (key, val) pairs, make a dict of {key: [val,...]}."
     result = defaultdict(list)
@@ -175,7 +177,6 @@ chennai_to_arakkonam = Map(
      ('poonamalle', 'thirumalizai'): 5, ('thirumalizai', 'perumalpattu'):  10, ('perumalpattu', 'manavalanagar'): 14, ('manavalanagar', 'thiruvallur'): 3,
     ('manavalanagar', 'manavur'): 42,('manavur', 'arakkonam'): 21,('manavalanagar', 'sengadu'): 26,
     ('perumalpattu', 'nemam'): 7,('nemam', 'chettipedu'): 15,})
-
 
 r0 = RouteProblem('chennai', 'arakkonam', map=chennai_to_arakkonam)
 goal_state_path=breadth_first_search(r0)
